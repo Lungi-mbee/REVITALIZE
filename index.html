@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="shortcut icon" href="img/logo.png" type="imsge/x-icon">
+    <script src="script.js" defer></script> 
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <title>ReVitalize</title>
+</head>
+<div class="body1">
+
+  <div id="section1">
+    <nav class="navbar">
+        <div class="brand-title">ReVitalize <img src="img/logo.png" class="logo"></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li ><a href="#section1">Home</a></li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li><a href="index.php" button class='loginbtn' >Login</button></li></a>
+          </ul>
+        </div>
+
+       
+        <div class="cart_link">
+          <a href="#"><i class="fas fa-shopping-cart"></i> <span class="cart_text_quantity">R
+                  2650</span> <i class="fas fa-chevron-down"></i></a>
+          <span class="cart_quantity">2</span>
+          
+          <!-- mini cart -->
+          <div class="mini_cart">
+              <div class="cart_close">
+                  <div class="cart_text">
+                      <h3>cart</h3>
+                  </div>
+                  <div class="mini_cart_close">
+                      <a href="javascript:void(0)"><i class="far fa-times-circle"></i></a>
+                  </div>
+              </div>
+              <div class="cart_item">
+                  <div class="cart_img">
+                      <a href="#"><img src="img/image3.jpg" alt=""></a>
+                  </div>
+                  <div class="cart_info">
+                      <a href="#">Make Up & L</a>
+                      <span class="quantity">Qty : 1</span>
+                      <span class="price_cart">R 1150</span>
+                  </div>
+                  <div class="cart_remove">
+                      <a href="#"><i class="far fa-times-circle"></i></a>
+                  </div>
+              </div>
+              <div class="cart_item">
+                  <div class="cart_img">
+                      <a href="#"><img src="img/img9.jpg" width="230px" height="200px" alt=""></a>
+                  </div>
+                  <div class="cart_info">
+                      <a href="#">Fashion Design & L</a>
+                      <span class="quantity">Qty : 1</span>
+                      <span class="price_cart">R 1500</span>
+                  </div>
+                  <div class="cart_remove">
+                      <a href="#"><i class="far fa-times-circle"></i></a>
+                  </div>
+              </div>
+              <div class="cart_total">
+                  <span>Subtotal : </span>
+                  <span>R 2650</span>
+              </div>
+              <div class="mini_cart_footer">
+                  <div class="cart_button checkout">
+                      <a href="index.php" class="active">Checkout</a>
+                  </div>
+              </div>
+          </div> 
+          
+		
+          
+        
+      </nav>
+
+      <script>
+        const menuBtn = document.querySelector(".menu-icon span");
+        const searchBtn = document.querySelector(".search-icon");
+        const cancelBtn = document.querySelector(".cancel-icon");
+        const items = document.querySelector(".nav-items");
+        const form = document.querySelector("form");
+        menuBtn.onclick = ()=>{
+          items.classList.add("active");
+          menuBtn.classList.add("hide");
+          searchBtn.classList.add("hide");
+          cancelBtn.classList.add("show");
+        }
+        cancelBtn.onclick = ()=>{
+          items.classList.remove("active");
+          menuBtn.classList.remove("hide");
+          searchBtn.classList.remove("hide");
+          cancelBtn.classList.remove("show");
+          form.classList.remove("active");
+          cancelBtn.style.color = "#ff3d00";
+        }
+        searchBtn.onclick = ()=>{
+          form.classList.add("active");
+          searchBtn.classList.add("hide");
+          cancelBtn.classList.add("show");
+        }
+     </script>
+
+
+    </br></br></br></br></br></br></br>
+  
+  
+    <h1>Fashion</h1>
+  </br></br></br>
+  
+  <center>
+    <div class="box ">
+      <span style="--i:1"> <img src="img/img9.jpg"> </span>
+      <span style="--i:2"> <img src="img/img2.jpg"> </span>
+      <span style="--i:3"> <img src="img/img3.jpg"> </span>
+      <span style="--i:4"> <img src="img/img4.jpg"> </span>
+      <span style="--i:5"> <img src="img/img5.jpg"> </span>
+      <span style="--i:6"> <img src="img/img6.jpg"> </span>
+      <span style="--i:7"> <img src="img/img7.jpg"> </span>
+      <span style="--i:8"> <img src="img/img8.jpg"> </span>
+      <span style="--i:9"> <img src="img/img9.jpg"> </span>
+    </div>
+   </center>
+  </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+ 
+  <p class="paragraph" align="justify" align="center">
+    Welocome to the "Makeover Home" where I wish I was and I could are made simple. ReVitalize has teams for fashion and beauty.in need for a makeover we arfe your Go To home.Some people find themselves in fashion ,style and clothing while others find themselves in beauty massage ,make up and nail technitian. Therefore this is where their home is in order to not be out of reach but accessable anywhere,anytime and anyhow.The teams therefore help those who would like to find their style or even escalate in blowing the streets off .Style your inner self that it leaks on the outside dripping greatness.Time to get on your confidence mode because we are here to dominate in style and beauty. we also teach doing the services and so you can be able to start your own businesses as well with our skills.knowledge and specialist/qualified beautitians.It is with high pleasure to welcome you all with to join our team as we aim to grow and grow your businesses and yourselve. It is A JOURNEY to never forget. We have stylists that style for big production companies as well as clothing lines on the largest fashion runways!! There are beautiful business owners that came from our team from the skills and knowledge always learning more they became proffesionals and now its your turn .Welcome!!
+    Take your time and feel the growth and exciting feel of independancy and fufilment of being who you truly are.
+  </p>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+
+
+  <h2>Beauty</h2>
+</br></br></br></br>
+<center>
+  <div class="box">
+    <span style="--i:1"> <img src="img/image1.jpg"> </span>
+    <span style="--i:2"> <img src="img/image2.JPG"> </span>
+    <span style="--i:3"> <img src="img/image3.jpg"> </span>
+    <span style="--i:4"> <img src="img/image4.jpg"> </span>
+    <span style="--i:5"> <img src="img/image5.jpg"> </span>
+    <span style="--i:6"> <img src="img/image6.jpg"> </span>
+    <span style="--i:7"> <img src="img/image7.jpg"> </span>
+    <span style="--i:8"> <img src="img/image8.jpg"> </span>
+    <span style="--i:9"> <img src="img/image1.jpg"> </span>
+  </div>
+ </center>
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</div>
+</div>
+<div id="section2"  >
+
+
+  <div class="body2">
+  
+    
+    <center>
+    <div>    
+   <img  src="video/gettoknow.gif" width="100%" height="40%">
+   </div>
+   
+   </center>
+     
+</br></br></br></br>
+<div class="galleryContainer">
+  
+  <div class="slideShowContainer">
+      <div id="playPause" onclick="playPauseSlides()"></div>
+      <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+      <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+      <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+      <div class="hero">
+        <div class="hero-content" background="rgba(255,255,255,0.1)">
+            <a href="#" id="button" class="button" align="center">INDULGE</a>
+        </div>
+      </div>
+    
+      <div class="imageHolder">
+          <img src="img/slide1.jpg">1366X768
+          <p class="captionText">Welcome</p>
+      </div>
+      <div class="imageHolder">
+          <img src="img/slide2.jfif">
+          <p class="captionText">Welcome</p>
+      </div>
+      <div class="imageHolder">
+          <img src="img/slide3.jpg">
+          <p class="captionText">Welcome</p>
+      </div>
+      <div class="imageHolder">
+          <img src="img/slide4.png">
+          <p class="captionText">Welcome</p>
+      </div>
+
+       <!-- Modal Section -->
+
+<div class="bg-modal">
+	<div class="modal-contents">
+
+		<div class="close">+</div>
+		<img src="img/logo.png" alt="" class="logo">
+
+		<form action="#">
+			<input type="text" placeholder="Name">
+<input type="email" placeholder="E-Mail">
+			<a href="Home.html" class="button">Submit</a>
+		</form>
+
+	</div>
+</div>    
+  </div>
+  <div id="dotsContainer"></div>
+</div>
+</br></br></br>
+<div  id="section3" >
+  
+  
+
+  <div class="services-section">
+    <div class="inner-width">
+      <h1 class="section-title">Our Services</h1>
+      <div class="border"></div>
+      <div class="services-container">
+
+
+
+        <div class="service-box">
+          <div class="service-icon" data-target="#modal1">
+            <i class="fas fa-tape"></i>
+          </div>
+          <div class="service-title"><b>Fashion Designs & Lessons</b></div>
+          <div class="service-desc">
+            <b>We have fashion design experts and also lectures on designing and creeation.</b>
+          </div>
+
+          <div class="modal" id="modal1">
+            <div class="header">
+              <div class="brand-title">ReVitalize<img src="img/logo.png" class="logo"></div>
+              <button class="btn close-modal">&times;</button>
+            </div>
+            <div class="body">
+
+              <img src="img/img9.jpg" height="100px" width="180px">
+            </br></br>
+              <p >
+              need lessons or to start your carrer or business</br> come along and join us!
+              </p></br>
+          <b>R1500</b>
+            </br>
+              <button>ADD TO CART</button>
+          
+            </div>
+          </div>
+          
+      
+          <div id="overlay"></div>
+
+        </div>
+        
+        <div class="service-box">
+          <div class="service-icon" data-target="#modal2" >
+             <i class="fas fa-cut"></i>
+          </div>
+          <div class="service-title"><b>Fashion Styling</b></div>
+          <div class="service-desc">
+            <b>Pro Stylist that also style on runway fashions style for weddings, parties and any type of event .</b>
+          </div>
+
+          <div class="modal" id="modal2">
+            <div class="header">
+              <div class="brand-title">ReVitalize<img src="img/logo.png" class="logo"></div>
+              <button class="btn close-modal">&times;</button>
+            </div>
+            <div class="body">
+              <img src="img/styling.png" height="100px" width="180px">
+            </br></br>
+              <p>
+              Going Out ? Metgala,Awards? Want to find your taste in style we are available</p></br>
+             <b>R2300</b>
+            </br>
+            <button>ADD TO CART</button>
+            </div>
+          </div>
+          
+      
+          <div id="overlay"></div>
+
+
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon" data-target="#modal3" >
+           <i class="fas fa-crown"></i>
+          </div>
+          <div class="service-title"><b>Fashion Competition/Brands & Lines</b></div>
+          <div class="service-desc">
+            <b>We have and help brand and fashion lines while we also help with the strategies of how customers businesses can broaden .</b>
+          </div>
+
+          <div class="modal" id="modal3">
+            <div class="header">
+              <div class="brand-title">ReVitalize<img src="img/logo.png" class="logo"></div>
+              <button class="btn close-modal">&times;</button>
+            </div>
+            <div class="body">
+              <img src="img/model.jfif" height="100px" width="180px">
+            </br></br>
+              <p>
+        Are you a good upcoming fashion designer and you have been</br>thinking of getting a clothing line in bussiness</br>
+        let us help ,guide ,improve and get you up and running!
+      </p>
+    </br><b>R5000</b>
+  </br>
+      <button>ADD TO CART</button>
+    </br>
+            </div>
+          </div>
+          
+      
+          <div id="overlay"></div>
+
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon"  data-target="#modal4" >
+             <i class="fas fa-eye-dropper"></i>
+          </div>
+          <div class="service-title"><b>Make Up & Lessons</b></div>
+          <div class="service-desc">
+           <b> Face beat , Art Shows any kind we offer plus lectures and lessons on techniques also for any events .</b>
+          </div>
+
+          <div class="modal" id="modal4">
+            <div class="header">
+              <div class="brand-title">ReVitalize<img src="img/logo.png" class="logo"></div>
+              <button class="btn close-modal">&times;</button>
+            </div>
+            <div class="body">
+              <img src="img/image3.jpg" height="100px" width="180px">
+             <p>
+               Need a proffesional make up artist or want to start a business out of the skill you are welcome
+             </p>
+            </br>
+           <b>R1150</b>
+          </br>
+          <button>ADD TO CART</button>
+            </div>
+          </div>
+          
+      
+          <div id="overlay"></div>
+
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon" data-target="#modal5" >
+             <i class="fas fa-bed"></i>
+          </div>
+          <div class="service-title"><b>Spa Treatment & Lessons</b></div>
+          <div class="service-desc">
+            <b>Soothing time out from all the noise of the world we offer Spa treatments and skin therapy.</b>
+          </div>
+
+          <div class="modal" id="modal5">
+            <div class="header">
+              <div class="brand-title">ReVitalize<img src="img/logo.png" class="logo"></div>
+              <button class="btn close-modal">&times;</button>
+            </div>
+            <div class="body">
+              <img src="img/spa3.jfif" height="100px" width="180px"></br>
+              <p>
+              Indulge in inner peace and relaxing your body as well as learning how to .
+              </p>
+            </br>
+           <b>R1150</b>
+            </br>
+            <button>ADD TO CART</button>
+            </div>
+          </div>
+          
+      
+          <div id="overlay"></div>
+
+        </div>
+
+        <div class="service-box">
+          <div class="service-icon" data-target="#modal6" >
+             <i class="fas fa-mortar-pestle"></i>
+             
+          </div>
+          
+          <div class="service-title"><b>Beauty/Skin Care Line Creation & Lessons </b></div>
+          <div class="service-desc">
+           <b>Business expanding in skin and beauty lesoons and strategies on how and we also have a few af our own .</b>
+          </div>
+
+          
+          <div class="modal" id="modal6">
+            
+            <div class="header"  >
+              
+              <div class="brand-title">ReVitalize <img src="img/logo.png" class="logo"></div>
+              <button class="btn close-modal">&times;</button>
+            </div>
+            <div class="body">
+              <img src="img/spa2.png" height="100px" width="180px"></br>
+              <p>
+                Creating on in the process of skin care or make up line we are here to offer service of doing it </br>
+                the best way and expanding it to greater height.
+                
+              </p></br>
+             <b>R2000</b>
+              </br>
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+          
+
+          
+      
+          <div id="overlay"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</br></br></br>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<footer>
+  <div class="containerr">
+      <div class="footer-content">
+          <div class="items">
+              <h3>Contact Us</h3>  
+              
+              <div class="social">
+                <a href="https://www.facebook.com/DenzelHayesWashingtonJr/"><img src="icons/facebook.png" class="icons"></a>
+				  <a href="mailto:lungilembele18@gmail.com"><img src="icons/gmail.png" class="icons"></a>
+                <a href="https://instagram.com/coding.np"><img src="icons/insta.jpg" class="icons"></a> 
+              </div>
+          </div>
+          <div class="items">
+              <h3> Company</h3>
+              <ul>
+                  <li><a href="#section2">About us</a></li>
+                  <li><a href="#section3">Our services</a></li>
+                  
+                  
+                 
+              </ul>                          
+          </div>
+
+          <div class="items">
+              <h3>Legal</h3>
+          <ul>
+              <li><a href="terms.html">Terms&Conditions</a></li>
+              <li><a href="privacy.html">Privacy&Cookies Policy</a></li>
+              
+              
+          </ul>
+          </div>
+          <div class="items">
+              <h3>Support</h3>
+              <ul>
+                  <li><a href="support.html">Support Team</a></li>
+                  
+              </ul>
+          </div>
+
+      </div>
+      <hr>
+      <p class="end">Copyright © 2021 ReVitalize. All rights reserved.</p>
+  </div>
+</footer>
+    
+</body>
+</html>
+ 
